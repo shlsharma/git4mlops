@@ -1,0 +1,33 @@
+# Hey this is a YAML
+my-course: "MLOPS Certification"
+version: 1.0
+price: 299
+is_public: true
+release_date: 2022-01-10 #YYYY-MM-DD
+pre-enroll: null
+category:
+ - AWS
+ - MLOPS
+ - AWS Certification
+course_dev: ["Sahil", "Aman", "Sheetal"]
+dev_details: 
+ - name: "Sahil"
+   email: "sahilsharma@gmail.com"
+   role: "Data Scientist"
+ - name: "Aman"
+   email: "amansharma@gmail.com"
+   role: "Data Engineer"
+ - name: "Sheetal"
+   email: "sheetalsharma@gmail.com"
+   role: "DevOps"
+ - {name: "Geeta", email: "geetasharma@gmail.com", role: "UI/UX"}
+
+short_description: > # multiline string, the lines and spacing which is added in this comment is stripped because of this operator (Limitation)
+ This is a course for MLOPS 
+ Certification Course 
+
+# to retain the line and spaces use the pipe symbol
+detailed_description: |
+  This is a course for MLOPS and has been
+  created with collaboration with industry
+  experts we hope you like it
